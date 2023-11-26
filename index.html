@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Menu EnigmaWord</title>
+    <link rel="stylesheet" href="Menu/menu.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="Menu/menu.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="titre_menu">
+            <h1>EnigmaWord</h1>
+        </div>
+
+        <div class="container_button_menu">
+            <button id="ruleButtonMenu">Règle du jeu</button>
+            <button onclick="location.href='Jeu/enigmaword_standard.html'">Partie Standard</button>
+        </div>
+    </div>
+
+    <div id="modal">
+        <div class="modal_rule_menu">
+            <span class="close_modal_menu">&times;</span>
+            <div class="titre_modal">
+                <h2>EnigmaWord Règle</h2>
+            </div>
+            <div class="text_rule">
+                <p>Votre objectif sera de deviner un mot de cinq lettres en six tentatives.<br>
+                À chaque essai, entrez un mot valide de la langue française. <br>
+                Après chaque soumission, la couleur des lettres change pour indiquer combien vous êtes proche du mot cible :<br> 
+                -	vert pour une lettre correcte bien placée,<br> 
+                -	jaune pour une lettre correcte mal placée,<br>
+                -	et gris pour une lettre incorrecte.<br>
+                Nous vous souhaitons bonne chance et réfléchissez bien à vos choix de mots !<br>
+                </p>
+                <br>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
